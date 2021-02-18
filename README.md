@@ -1,5 +1,5 @@
-# UTEC
-The code for paper "Joint-learning of unsupervised temporal representation and clustering with Transformer".
+## UTEC
+The code is for paper "Joint-learning of unsupervised temporal representation and clustering with Transformer".
 
 ## Dependencies
 * torch 1.7 
