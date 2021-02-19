@@ -235,11 +235,7 @@ def get_attn(model, x, y, attention_masks):
 if __name__ == '__main__':
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    file_dir = '/Users/qin/Desktop/ijcai_2021/UCR_TS_Archive_2015/'
-
-    # file_dir = '../../root/UCR_TS_Archive_2015/'
-
+    file_dir = '../../root/UCR_TS_Archive_2015/'
     file = 'Beef'
     criterion = torch.nn.MSELoss()
 
